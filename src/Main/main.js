@@ -27,26 +27,24 @@ class Main extends Component {
                 </Typography>
                 <Typography className={'side-info mt-2'}>Lorem Ipsum is simply dummy text </Typography>
                 <TabsContainer id="notification-tab" panelClassName="md-grid" onTabChange={this.changeTab}
-                               className="w-100 mt-3">
+                               className="w-100 mt-3" style={{maxHeight: '100%'}}>
                     <Tabs tabId="notification-tab">
                         <Tab className={this.state.activeTabIndex === 0 ? "active-tab" : 'inactive-tab'}
                              label="Company">
                             <div id="notification-container p-0" className="width-100-per border-smoke-white"
                                  style={customStyle}>
-                                <SubMenu/>
                             </div>
                         </Tab>
                         <Tab label="Investor"
                              className={this.state.activeTabIndex === 1 ? "active-tab" : 'inactive-tab'}>
                             <div id="notification-container p-0" className="width-100-per border-smoke-white"
                                  style={customStyle}>
-                                <PopularSection/>
                             </div>
                         </Tab>
                         <Tab label="Person" className={this.state.activeTabIndex === 2 ? "active-tab" : 'inactive-tab'}>
                             <div id="notification-container p-0" className="width-100-per border-smoke-white"
                                  style={customStyle}>
-                                <ChartView/>
+
                             </div>
                         </Tab>
                         <Tab label="Sector" className={this.state.activeTabIndex === 3 ? "active-tab" : 'inactive-tab'}>
@@ -77,6 +75,13 @@ class Main extends Component {
                         </Tab>
                     </Tabs>
                 </TabsContainer>
+                {this.state.activeTabIndex === 0 ? <SubMenu/> : null}
+                {this.state.activeTabIndex === 1  ? <PopularSection/> : null}
+                {this.state.activeTabIndex === 2  ? <ChartView/> : null}
+                {this.state.activeTabIndex === 3 ? <SubMenu/> : null}
+                {this.state.activeTabIndex === 4  ? <PopularSection/> : null}
+                {this.state.activeTabIndex === 5  ? <ChartView/> : null}
+
             </div>
         )
     }

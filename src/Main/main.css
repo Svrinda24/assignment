@@ -13,8 +13,11 @@
 
 .notification-tab-padding {
     padding-left: 0px !important;
-}
 
+}
+.notification-tab{
+    max-height: 100% !important;
+}
 .active-tab {
     color: white !important;
     text-transform: capitalize !important;
