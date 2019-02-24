@@ -1,0 +1,179 @@
+.profile-btn {
+    min-height: 40px;
+    border-radius: 25px !important;
+    background-color: #210721 !important;
+    border-color: #210721 !important;
+    color: rgba(242, 150, 242, 0.64) !important;
+    text-transform: capitalize !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none !important;
+    font-family: Helvetica Neue !important;
+
+}
+
+.profile-btn:focus {
+    border-color: rgba(242, 150, 242, 0.64) !important;
+}
+
+.profile-btn:hover {
+    border-color: rgba(242, 150, 242, 0.64) !important;
+}
+
+@media (min-width: 1230px) {
+    .profile-btn-div {
+        max-width: 12.666667% !important;
+    }
+}
+
+.comparables-btn {
+
+    min-height: 40px;
+    border-radius: 25px !important;
+    background-color: #261a13 !important;
+    border-color: #261a13 !important;
+    color: #e99132 !important;
+    text-transform: capitalize !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none !important;
+    font-family: Helvetica Neue !important;
+
+}
+
+.comparables-btn:focus {
+    border-color: #e99132 !important;
+}
+
+.comparables-btn:hover {
+    border-color: #e99132 !important;
+}
+
+.strategic-btn {
+    min-height: 40px;
+    border-radius: 25px !important;
+    background-color: #0d1c11 !important;
+    border-color: #0d1c11 !important;
+    color: rgba(29, 196, 85, 0.98) !important;
+    text-transform: capitalize !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none !important;
+    word-break: break-word;
+    font-family: Helvetica Neue !important;
+
+}
+
+.strategic-btn:focus {
+    border-color: rgba(29, 196, 85, 0.98) !important;
+}
+
+.strategic-btn:hover {
+    border-color: rgba(29, 196, 85, 0.98) !important;
+}
+
+.potential-btn {
+    min-height: 40px;
+    border-radius: 25px !important;
+    background-color: #271212 !important;
+    border-color: #271212 !important;
+    color: rgba(216, 51, 69, 0.96) !important;
+    text-transform: capitalize !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none !important;
+    font-family: Helvetica Neue !important;
+
+}
+
+.potential-btn:focus {
+    border-color: rgba(216, 51, 69, 0.96) !important;
+}
+
+.potential-btn:hover {
+    border-color: rgba(216, 51, 69, 0.96) !important;
+}
+
+.fast-path-btn {
+    min-height: 40px;
+    border-radius: 25px !important;
+    background-color: rgba(12, 25, 44, 0.86) !important;
+    border-color: rgba(12, 25, 44, 0.86) !important;
+    color: rgba(64, 140, 255, 0.96) !important;
+    text-transform: capitalize !important;
+    font-size: 14px !important;
+    cursor: pointer;
+    font-weight: 500;
+    outline: none !important;
+    font-family: Helvetica Neue !important;
+}
+
+.fast-path-btn:focus {
+    border-color: rgba(64, 140, 255, 0.96) !important;
+}
+
+.fast-path-btn:hover {
+    border-color: rgba(64, 140, 255, 0.96) !important;
+}
+
+@media (min-width: 1230px) {
+    .fast-path-btn-div {
+        max-width: 14.666667% !important;
+    }
+}
+
+.sub-div {
+    border: 1px #353439a8 solid !important;
+    padding: 1rem;
+    margin: 1rem;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.chart-div {
+    border: 1px #35343970 solid !important;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    height: fit-content !important;
+}
+
+.sub-div-content {
+    color: #bebebe !important;
+    font-size: 19px !important;
+    font-weight: 500 !important;
+}
+
+.use-case-btn {
+    background-color: transparent;
+    border: 1px #080862 solid;
+    color: white;
+    font-size: 15px;
+    padding: 0.25rem 2rem 0.25rem 2rem;
+    border-radius: 5px;
+    justify-content: start;
+    outline: none;
+}
+
+.top-chart-btn {
+    background-color: transparent;
+    border: 1px #08083f solid;
+    color: white;
+    font-size: 14px;
+    padding: 0.25rem;
+    border-radius: 5px;
+    justify-content: start;
+    outline: none;
+}
+
+.height-fit {
+    height: fit-content !important;
+}
+
+.border-none {
+    border: none;
+}

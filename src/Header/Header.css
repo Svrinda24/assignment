@@ -1,0 +1,85 @@
+.App-header {
+    background-color: black;
+    min-height: 10vh;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.App-logo {
+    pointer-events: none;
+}
+
+.search-field {
+    background-color: transparent !important;
+    border: none !important;
+    width: 90% !important;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+    color: white !important;
+}
+
+.search-field:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.search-field::placeholder {
+    color: #63707d;
+    opacity: 1;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.header-dropDown {
+    min-width: 12% !important;
+    top: 75px !important;
+}
+
+.header-menu-item {
+    font-family: 'ProximaNova' !important;
+    font-size: 17px !important;
+    background-color: transparent;
+}
+
+
+.profile-tab {
+    background-color: transparent;
+    border: none !important;
+    outline: none !important;
+    height: 50px !important;
+    font-size: 17px !important;
+    color: #ffffff !important;
+    font-weight: 500 !important;
+    padding-top: 0.5rem !important;
+}
+
+.profile-tab:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.profile-tab:hover {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.profile-icon {
+    position: absolute !important;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    user-select: none;
+    border-radius: 50%;
+    justify-content: center;
+    margin-top: -5px;
+}

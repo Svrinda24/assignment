@@ -1,0 +1,108 @@
+@import '../../node_modules/react-md/dist/react-md.indigo-pink.min.css';
+
+.main-heading {
+    font-size: 21px !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.main-div {
+    height: 70vh !important;
+    padding-left: 4rem !important;
+}
+
+.notification-tab-padding {
+    padding-left: 0px !important;
+}
+
+.active-tab {
+    color: white !important;
+    text-transform: capitalize !important;
+    padding-left: 1px;
+    align-items: start;
+}
+
+.inactive-tab {
+    padding-left: 1px;
+    align-items: start;
+    color: gray !important;
+    text-transform: capitalize !important;
+}
+
+.md-tab-label {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.md-tabs--pagination .md-tab {
+    align-items: start !important;
+    padding-left: 5px !important;
+    min-width: 110px !important;
+}
+
+.md-tabs {
+    padding-left: 0 !important;
+}
+
+.md-tab-indicator {
+    background-color: #9e001ded !important;
+    width: 100px !important;
+}
+
+.popular-section-tab {
+    border-radius: 25px !important;
+    background-color: rgba(48, 48, 65, 0.35);
+    border-color: rgba(48, 48, 65, 0.35);
+    min-height: 40px;
+    text-transform: capitalize !important;
+    font-size: 16px !important;
+    cursor: pointer;
+    outline: none !important;
+    font-family: Helvetica Neue !important;
+    color: white;
+    padding: 0.25rem;
+}
+
+.popular-section-tab:hover {
+    border-color: white;
+}
+
+.popular-section-tab:focus {
+    border-color: white;
+}
+
+.discover-heading {
+    color: #bebebe !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.discover-sub-heading {
+    color: #727272 !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    float: right !important;
+    text-transform: uppercase;
+}
+
+.discover-btn {
+    background-color: transparent;
+    border: none;
+    color: #c8c8c8;
+    font-size: 14px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    justify-content: start;
+    outline: none;
+}
+
+.discover-download-btn {
+    background-color: transparent;
+    border: 1px #cfcfcf solid;
+    color: #cfcfcf;
+    font-size: 13px;
+    padding: 0.5rem;
+    border-radius: 5px;
+    justify-content: start;
+    outline: none;
+}
